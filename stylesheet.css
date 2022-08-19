@@ -29,17 +29,25 @@ h4 {
   margin-top: 5px;
 }
 
-img{
-  max-width: 30%;
-  height: auto
+.topPage {
+  display: flex;
+  flex-direction: column;
 }
 
-img {
+.heroImage {
+  display: flex;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 5px;
 }
 
-img:hover {
+.heroImage:hover {
   box-shadow:  0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.maryHolmContainer {
+  display:flex;
+}
+
+.maryHolmDescription { 
+  width: 50px;
 }
