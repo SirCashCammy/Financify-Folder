@@ -5,21 +5,42 @@
     font-size: 1.8em;
     color: black;
     margin-top: 0%;
+    margin-bottom: 0px;
   }
 
 .signup {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: right;
+  outline-style: double;
+  outline-color: royalblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-left:1600px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  text-align: center;
     font-size: 1em;
     color:black
+    
 }  
 
+.signup:hover {
+  outline-style: solid;
+}
+
 .login {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: right;
+outline-style: double;
+outline-color: royalblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  text-align: center;
   font-size: 1em;
   color:black
-  margin-top: 0%;
+}
+
+.login:hover {
+  outline-style: solid;
 }
 
 .topPage {
@@ -27,17 +48,26 @@
   flex-direction: row;
 }
 
+.subheading {
+   margin-top: 0px;
+   margin-bottom: 15px;
+}
+
 .heroImage {
   display: flex;
   border: 1px solid #ddd;
   border-radius: 4px;
-  margin-left: 250px;
+  margin-left: 20px;
   max-height: 236.71px;
   max-width: 450px;
 }
 
+.quizHomepageStarter {
+  margin-left: 5px;
+}
+
 .heroImage:hover {
-  box-shadow:  0 0 2px 1px rgba(0, 0, 0, 0.5);
+  box-shadow:  0 0 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 .maryHolmContainer {
@@ -45,5 +75,6 @@
 }
 
 .maryHolmDescription { 
-  width: 50px;
+  width: 200px;
+  display: flex;
 }
