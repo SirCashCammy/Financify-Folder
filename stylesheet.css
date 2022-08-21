@@ -22,23 +22,18 @@
   margin-top: 0%;
 }
 
-.minorHeading {
-  text-align: left;
-  font-size: 1.5em;
-  margin-top: 0px;
-}
-
 .topPage {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .heroImage {
   display: flex;
   border: 1px solid #ddd;
   border-radius: 4px;
-  max-height: ;
-  max-width: ;
+  margin-left: 250px;
+  max-height: 236.71px;
+  max-width: 450px;
 }
 
 .heroImage:hover {
