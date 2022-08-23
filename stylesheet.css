@@ -14,7 +14,7 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 10px;
-  margin-left:1600px;
+  margin-left:1100px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
   text-align: center;
     font-size: 1em;
@@ -77,4 +77,5 @@ outline-color: royalblue;
 .maryHolmDescription { 
   width: 200px;
   display: flex;
+  font-size:20px;
 }
