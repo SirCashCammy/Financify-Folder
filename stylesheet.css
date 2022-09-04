@@ -6,51 +6,38 @@
     color: black;
     margin-top: 0%;
     margin-bottom: 0px;
-  }
-
-.signupBtn {
-  outline-style: double;
-  outline-color: royalblue;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px;
-  margin-left:1100px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
-  text-align: center;
-    font-size: 1em;
-    color:black
-    
-}  
-
-.signup:hover {
-  outline-style: solid;
-}
-
-.loginBtn {
-outline-style: double;
-outline-color: royalblue;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-top: 10px;
-  margin-left: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
-  text-align: center;
-  font-size: 1em;
-  color:black
-}
-
-.login:hover {
-  outline-style: solid;
-}
+  }  
 
 .topPage {
   display: flex;
   flex-direction: row;
 }
 
-.subheading {
-   margin-top: 0px;
-   margin-bottom: 15px;
+.signup {
+  transition-duration: 0.4s;
+  background-color: rgb(85, 151, 212);
+}
+
+.signup:hover {
+  background-color: black;
+  color: white;
+}
+
+.signup{
+  margin-left: 1400px;
+  padding-left: 0px;
+}
+
+.login{
+  transition-duration: 0.4s;
+  background-color: rgb(85, 151, 212);
+  margin-left: 5px;
+
+}
+
+.login:hover {
+  background-color: black;
+  color: white;
 }
 
 .heroImage {
@@ -80,6 +67,14 @@ outline-color: royalblue;
   font-size:20px;
 }
 
+.maryInterviewLink {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  margin-top: 210px;
+}
+
 .footer {
   text-align: center;
+   padding-top: 10%;
 }

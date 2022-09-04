@@ -4,7 +4,7 @@ console.log("Adding click listeners");
 document.addEventListener("click", (event) => {
   // the click is the signup button
   if (event.target.matches(".signup")) {
-    console.log("signup has been pressed")
+    document.location.href = "http://127.0.0.1:5500/loginPage.html";
   }
 
   // the click is the login button
