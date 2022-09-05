@@ -1,8 +1,17 @@
+body{
+background-color: blanchedalmond;
+}
+
+
 input[type=text]{
-    font-size: 4px; 
+    font-size: 14px; 
 
 }
 
 input[type=email]{
-    font-size:  200px;
+    font-size:  14px;
+}
+
+input[type=password]{
+    font-size: 14px;
 }
