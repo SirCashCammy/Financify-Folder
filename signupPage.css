@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 background-color: blanchedalmond;
 }
@@ -5,9 +6,16 @@ background-color: blanchedalmond;
 
 input[type=text]{
     font-size: 14px; 
+=======
+>>>>>>> b63bed6cc51aca39bf3f9986420ab3ec4526da4b
 
+.signup {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 200px;
 }
 
+<<<<<<< HEAD
 input[type=email]{
     font-size:  14px;
 }
@@ -15,3 +23,20 @@ input[type=email]{
 input[type=password]{
     font-size: 14px;
 }
+=======
+input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+input[type=email]:focus {
+    background-color: lightblue;
+  }
+
+input[type=password]:focus {
+    background-color: lightblue;
+}  
+
+input[type=text] {
+    background-image: url('searchicon.png');
+}
+>>>>>>> b63bed6cc51aca39bf3f9986420ab3ec4526da4b
