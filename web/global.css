@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+body {
+  background-color:rgba(105, 144, 156, 0.623);
+}
+
+.topPage {
+  font-family: "Raleway", sans-serif;
+}
+
+.topPage {
+  display: flex;
+  flex-direction: row;
+  background-color:rgba(139, 189, 255, 0.623);
+}
+
+.title {
+  text-align: left;
+    font-size: 1.8em;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    color: azure; 
+}  
+
+.signupA {
+  margin-left: 1400px;
+  align-self: center;
+  color: azure;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.loginA {
+  margin-left: 25px;
+  align-self: center;
+  color: azure;
+  text-decoration: none;
+}
+
+.heroImage {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 20px;
+  max-height: 236.71px;
+  max-width: 450px;
+}
+
+.quizHomepageStarter {
+  margin-left: 5px;
+}
+
+.maryHolmContainer {
+  display:flex;
+}
+
+.maryHolmDescription { 
+  width: 200px;
+  display: flex;
+  font-size:20px;
+}
+
+.maryInterviewLink {
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  margin-top: 210px;
+  align-self: center;
+  color: azure;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+.footer {
+  text-align: center;
+   padding-top: 10%;
+}
