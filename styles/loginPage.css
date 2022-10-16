@@ -1,36 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @import url("")
 
-body {
-  background-color:rgba(105, 144, 156, 0.623);
-}
-
-.topPage {
-  font-family: "Raleway", sans-serif;
-}
-
 .topPage {
 
   max-height: 40px;
   display: flex;
   flex-direction: row;
   background-color:rgba(139, 189, 255, 0.623);
+  margin: 0px;
 }
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+}
+
+
 
 .title {
   text-align: left;
     font-size: 2.5em;
-    color: black;
     margin-top: 0%;
     margin-bottom: 0px;
-    color: azure; 
+    margin-left: 0.5vw;
+    color:slategrey;
+    text-decoration: none; 
 }  
 
 .signupA {
-  margin-left: 1100px;
+  margin-left: 75vw;
   position: relative;
   align-self: center;
-  color: azure;
+  color:slategrey;
   text-decoration: none;
   box-sizing: border-box;
 }
@@ -38,6 +41,6 @@ body {
 .loginA {
   margin-left: 25px;
   align-self: center;
-  color: azure;
+  color:slategrey;
   text-decoration: none;
 }
