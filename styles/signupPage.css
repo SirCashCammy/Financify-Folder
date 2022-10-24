@@ -3,20 +3,49 @@
 body {
     background-color:rgba(105, 144, 156, 0.623);
 
+/* styling for the header of body */
+.topPage {
+    max-height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color:rgba(116, 161, 221, 0.623);
+    margin: 0px;
+  }
+  
+  .title {
+    text-align: left;
+      font-size: 2.5em;
+      margin-top: 0%;
+      margin-bottom: 0px;
+      margin-left: 0.5vw;
+      color:slategrey;
+      text-decoration: none; 
+  }  
+  
+  .signupA {
+    margin-left: 75vw;
+    position: relative;
+    align-self: center;
+    color:slategrey;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  .loginA {
+    margin-left: 25px;
+    align-self: center;
+    color:slategrey;
+    text-decoration: none;
+  }
 
-input[type=text]{
-    font-size: 14px; 
-}
 
 .signup {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    margin-top: 200px;
 }
 
-
 input[type=email]{
-    font-size:  14px;
+    font-size:  140px;
+
 }
 
 input[type=password]{

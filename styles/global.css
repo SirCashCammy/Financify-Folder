@@ -22,7 +22,6 @@ html, body {
   flex-direction: row;
   background-color:rgba(116, 161, 221, 0.623);
   margin: 0px;
-  text-decoration: underline;
 }
 
 .title {
@@ -65,6 +64,8 @@ html, body {
 .maryHolmContainer {
   display:flex;
   background-color:rgba(116, 161, 221, 0.623);
+  flex-direction: row;
+  text-align: center;
 }
 
 .maryHolmDescription { 
@@ -72,6 +73,7 @@ html, body {
   display: flex;
   font-size:20px;
   margin-left: 1.5vh;
+  text-align: center;
 }
 
 .maryInterviewLink {
