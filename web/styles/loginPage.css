@@ -1,0 +1,15 @@
+.signupA {
+  text-decoration:none;
+  margin-left: 10vw;
+  margin-top: 2.5vh;
+  color:slategray
+}
+
+body {
+  background-color:rgba(116, 161, 221, 0.623);
+}
+
+.email {
+  text-decoration: overline;
+}
+

@@ -1,19 +1,5 @@
 {
-  "name": "financify-folder",
-  "version": "1.0.0",
-  "description": "- auth\r     - login\r     - signup",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SirCashCammy/Financify-Folder.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SirCashCammy/Financify-Folder/issues"
-  },
-  "homepage": "https://github.com/SirCashCammy/Financify-Folder#readme"
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }

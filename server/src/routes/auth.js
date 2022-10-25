@@ -9,7 +9,7 @@ const router = express.Router();
 // get auth instance from firebase
 const { auth } = require("../firebase.js");
 
-router.get("/login", async (req, res) => {
+router.post("/login", async (req, res) => {
   // because we're using body-parser we can access Request.body (this is a json object with maximum size defined in index.js)
   const { email, password } = req.body;
 
@@ -57,7 +57,7 @@ router.get("/login", async (req, res) => {
   }
 });
 
-router.get("/register", async (req, res) => {
+router.post("/register", async (req, res) => {
   // because we're using body-parser we can access Request.body (this is a json object with maximum size defined in index.js)
   const { email, password } = req.body;
 

@@ -66,21 +66,27 @@ html, body {
   background-color:rgba(116, 161, 221, 0.623);
   flex-direction: row;
   text-align: center;
+  
 }
 
 .maryHolmDescription { 
-  width: 200px;
+  width: 25vw;
   display: flex;
-  font-size:20px;
-  margin-left: 1.5vh;
+  font-size: 22.5px;
+  margin-left: 50vh;
   text-align: center;
+  padding: 0px;
+  margin-top: 10vh;
+  margin-bottom: 0vh;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif ;
 }
 
 .maryInterviewLink {
   text-align: center;
   width: 80px;
   height: 40px;
-  margin-top: 210px;
+  margin-top: 100vh;
   align-self: center;
   color: azure;
   text-decoration: none;
