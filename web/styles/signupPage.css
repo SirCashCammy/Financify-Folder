@@ -8,3 +8,8 @@
 body {
   background-color:rgba(116, 161, 221, 0.623);
 }
+
+.signupform {
+  margin-top: 10vh;
+  text-align: center;
+}

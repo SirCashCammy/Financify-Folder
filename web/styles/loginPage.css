@@ -9,7 +9,19 @@ body {
   background-color:rgba(116, 161, 221, 0.623);
 }
 
-.email {
-  text-decoration: overline;
+.loginform {
+  text-align: center;
+  margin-top: 10vh;
 }
+
+input[type=email] {
+ background-color: antiquewhite;
+
+}
+
+input[type=pword] {
+  background-color: antiquewhite;
+}
+
+  
 
