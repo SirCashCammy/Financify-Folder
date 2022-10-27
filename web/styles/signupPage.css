@@ -1,15 +1,14 @@
-.LoginA {
+.signupform {
   text-decoration:none;
-  margin-left: 10vw;
-  margin-top: 2.5vh;
-  color:slategray
+  margin-top: 10vh;
+  color:slategray;
+  text-align: center;
 }
 
 body {
   background-color:rgba(116, 161, 221, 0.623);
 }
 
-.signupform {
-  margin-top: 10vh;
-  text-align: center;
+input[type=submit] {
+  margin-top: 1vh;
 }

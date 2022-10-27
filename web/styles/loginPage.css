@@ -1,27 +1,16 @@
-.signupA {
+.loginform {
   text-decoration:none;
-  margin-left: 10vw;
-  margin-top: 2.5vh;
-  color:slategray
+  margin-top: 10vh;
+  color:slategray;
+  text-align: center;
 }
 
 body {
   background-color:rgba(116, 161, 221, 0.623);
 }
 
-.loginform {
-  text-align: center;
-  margin-top: 10vh;
+input[type=submit] {
+  margin-top: 1vh;
 }
 
-input[type=email] {
- background-color: antiquewhite;
-
-}
-
-input[type=pword] {
-  background-color: antiquewhite;
-}
-
-  
 
