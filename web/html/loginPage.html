@@ -18,15 +18,17 @@
 </div>    
 <!--This is the login form-->
   <div class="loginform">
-         <form  name ="loginForm"  onsubmit="submit()">
+         <form>
             <label for="email">Email Address:</label><br>
             <input type="email" id="email" name="email"><br>
             <label for="pword">Password:</label><br>
             <input type="password" id="pwd" name="pwd"><br>
-            <input type="submit" name="submit2" value="Submit">
+            <button type="button" onclick="handleLogin()">Submit</button>
         </form>
   </div>
+  <p class="centertext" id="status-text"></p>
 
 <script src="/web/javascript/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
 </body>
 </html>

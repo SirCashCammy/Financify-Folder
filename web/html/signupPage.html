@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <link href="/web/styles/global.css" rel="stylesheet" />
     <link href="/web/styles/signupPage.css" rel="stylesheet" />
-
-
-</head>
-<body>
+  </head>
+  <body>
     <div class="topPage">
-        <a href="/web/html/index.html" class="title">Financify</a>
-        <a href="/web/html/loginPage.html" class="loginsignup">Login</a>
-      </div> 
-      
-      <div class="signupform">
-    <form onsubmit="submit()">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="pword">Password:</label><br>
-        <input type="password" id="pwd" name="pwd"><br>
-        <input type="submit" name="submit1" value="Submit">
+      <a href="/web/html/index.html" class="title">Financify</a>
+      <a href="/web/html/loginPage.html" class="loginsignup">Login</a>
     </div>
-    
-    </form>
-</body>
-</html>
 
-<form>
-   
-</form>
+    <div class="signupform">
+      <form>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="pword">Password:</label><br />
+        <input type="password" id="pwd" name="pwd" /><br />
+        <button type="button" onclick="handleRegister()">Submit</button>
+      </form>
+    </div>
+    <p class="centertext" id="status-text"></p>
+
+    <script src="/web/javascript/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+  </body>
+</html>

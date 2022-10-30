@@ -51,8 +51,13 @@ router.post("/login", async (req, res) => {
       return;
     }
 
+    
+    if (err.code == "auth/invalid-email") {
+      res.status(400).send({ status: 400, message: "failed to login"})
+      return;
+    }
+
     // something went wrong (server-side);
-    console.log(err);
     res.status(500).send({ status: 500, message: "Something went wrong" });
   }
 });

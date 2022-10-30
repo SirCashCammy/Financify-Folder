@@ -9,8 +9,6 @@ body {
   background-color:rgba(116, 161, 221, 0.623);
 }
 
-input[type=submit] {
-  margin-top: 1vh;
+button {
+  margin-top:10px;
 }
-
-
