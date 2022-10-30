@@ -1,0 +1,17 @@
+.myselfImg {
+    width: 20%;
+    height: auto;
+    margin-left: 40vw;
+
+}
+.aboutBlurb {
+    font-size: 3vh;
+text-align:  center;
+margin-left: 1vw;
+margin-right: 1vw;
+border-color: red;
+border-radius: 2px;
+}
+body {
+    background-color:rgba(116, 161, 221, 0.623);
+}
