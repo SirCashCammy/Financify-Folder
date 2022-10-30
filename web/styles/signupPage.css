@@ -1,3 +1,12 @@
+.loginsignup {
+  margin-left: 75vw;
+  position: relative;
+  align-self: center;
+  color:slategrey;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
 .signupform {
   text-decoration:none;
   margin-top: 10vh;
