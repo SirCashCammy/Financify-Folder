@@ -1,0 +1,43 @@
+body {
+    background-color:rgba(116, 161, 221, 0.623); 
+}
+
+.welcomeBack {
+    text-align: center;
+}
+
+.proceedmainpage {
+    text-align: center;
+}
+
+.goodReads {
+    margin-top: 5vh;   
+    text-align: center;
+}
+
+.stuffArticle {
+    margin-left: 2.5vw;
+    text-decoration: underline;
+    color:rgb(75, 77, 80);
+}
+
+.costOfLiving {
+    text-decoration: underline;
+    color:rgb(75, 77, 80);
+}
+
+.surveyResults {
+    text-align: center;
+    font-weight: 50px;
+    
+}
+
+.surveryblurb {
+    font-weight: bold;
+    font-size: 18px;
+}
+.surveyimg1 {
+    max-width: 30%;
+    height: auto;
+    margin-top: 5vh;
+}
