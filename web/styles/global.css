@@ -108,8 +108,9 @@ html, body {
 
 .footer {
   text-align: center;
-   padding-top: 10%;
-   background-color:rgba(116, 161, 221, 0.623)
+   padding-top: 7.5vh;
+   background-color:rgba(116, 161, 221, 0.623);
+   padding-bottom: 27.5vh;
 }
 
 /* Mary Holm Interview html styling sheet begins here */
